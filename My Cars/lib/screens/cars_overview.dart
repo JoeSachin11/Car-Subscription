@@ -10,7 +10,7 @@ class CarsOverviewScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         elevation: 0,
-        title: Text('okCar', style: SubHeading),
+        title: Text('MyCars', style: SubHeading),
       ),
       body: ListView(
         children: [
