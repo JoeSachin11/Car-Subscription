@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'okCar',
-      theme: ThemeData(primaryColor: Colors.white, accentColor: Colors.purple),
+      title: 'MyCars',
+      theme: ThemeData(primaryColor: Colors.blueGrey, accentColor: Colors.purple),
       home: CarsOverviewScreen(),
     );
   }
