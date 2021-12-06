@@ -47,17 +47,18 @@ class CarDetail extends StatelessWidget {
               SpecificsCard(
                 name: '12 Month',
                 price: price * 12,
-                name2: 'Dollars',
+                name2: 'rs',
               ),
               SpecificsCard(
                 name: '6 Month',
                 price: price * 6,
-                name2: 'Dollars',
+                name2: 'rs',
               ),
               SpecificsCard(
                 name: '1 Month',
                 price: price * 1,
-                name2: 'Dollars',
+                name2: 'rs'
+',
               )
             ],
           ),
